@@ -3,10 +3,19 @@
 }
 
 header {
+    position: fixed;
     top: 0;
     width: 100%;
     border-bottom: 10px solid black;
     background-color: darkcyan;
+}
+
+body{
+    margin-top: 100px;
+}
+
+.slightly-right{
+    margin-left: 40px;
 }
 
 .art{
