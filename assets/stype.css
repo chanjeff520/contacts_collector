@@ -1,8 +1,18 @@
+* {
+    color: blue;
+}
+
 header {
     top: 0;
     width: 100%;
     border-bottom: 10px solid black;
     background-color: darkcyan;
+}
+
+.art{
+    background-color: pink;
+    border: inset 10px;
+    border-color: antiquewhite;
 }
 
 #center{
@@ -13,9 +23,17 @@ header {
     margin-top: 30px;
     margin-left: auto;
     margin-right:auto;
-    border-color:aquamarine;
-    border: 20px;
     
     /* border: 20px cornflowerblue; */
     /* padding: 20px green; */
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    text-align: center;
 }
